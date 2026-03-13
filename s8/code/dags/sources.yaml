@@ -1,0 +1,8 @@
+chuck_jokes:
+    url: https://api.chucknorris.io/jokes/search?query=computer
+    result_key: result
+universities_spain:
+    url: http://universities.hipolabs.com/search?country=Spain
+cat_facts:
+    url: https://catfact.ninja/facts?limit=50
+    result_key: data
