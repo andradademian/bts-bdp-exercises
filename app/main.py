@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-import os 
 
 app = FastAPI(title="BTS BDP S9 - DevOps Exercises")
 
