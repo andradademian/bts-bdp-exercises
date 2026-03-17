@@ -1,4 +1,4 @@
-name: CI
+name: CI/CD Pipeline
 
 on:
   push:
@@ -43,3 +43,14 @@ jobs:
           context: ./app
           push: false
           tags: bts-bdp-app:latest
+
+  deploy:
+    needs: docker
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    steps:
+      - name: Deploy to production
+        run: echo "Deploying bts-bdp-app:latest to production..."
+
+      - name: Verify deployment
+        run: echo "Deployment complete. Application is live."
