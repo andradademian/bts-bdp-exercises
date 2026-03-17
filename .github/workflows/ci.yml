@@ -7,14 +7,22 @@ on:
     branches: [main]
 
 jobs:
-  hello:
+  ci:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Say hello
-        run: echo "Hello CI! My first GitHub Actions workflow."
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-      - name: Check Python version
-        run: python --version
+      - name: Install dependencies
+        run: pip install -r app/requirements.txt
+
+      - name: Lint with ruff
+        run: ruff check app/
+
+      - name: Run tests
+        run: pytest app/ -v
