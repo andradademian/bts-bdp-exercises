@@ -1,0 +1,45 @@
+[0m11:17:11.097071 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BF584CEC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BF797FED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BF797FB10>]}
+
+
+============================== 11:17:11.101234 | 5b385bd7-273f-424c-8dce-38bb6a4b6c4f ==============================
+[0m11:17:11.101234 [info ] [MainThread]: Running with dbt=1.11.7
+[0m11:17:11.101748 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\andra\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt init airbnb', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m11:17:11.112615 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\andra\.dbt
+[0m11:17:11.115060 [debug] [MainThread]: Starter project path: C:\Users\andra\Documents\GitHub\bts-bdp-exercises\.venv\Lib\site-packages\dbt\include\starter_project
+[0m11:17:11.122777 [info ] [MainThread]: 
+Your new dbt project "airbnb" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:17:11.123144 [info ] [MainThread]: Setting up your profile.
+[0m11:17:28.239975 [info ] [MainThread]: Profile airbnb written to C:\Users\andra\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m11:17:28.241261 [debug] [MainThread]: Command `dbt init` succeeded at 11:17:28.241155 after 17.24 seconds
+[0m11:17:28.241494 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BF799E3F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BF62BA450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BF7A07570>]}
+[0m11:17:28.241773 [debug] [MainThread]: Flushing usage events
+[0m11:17:29.013129 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:37:51.699166 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023CB09FCEC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023CB2B33ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023CB2B33B10>]}
+
+
+============================== 11:37:51.702503 | f5e3f556-4676-4227-9dba-a82fdc7709ab ==============================
+[0m11:37:51.702503 [info ] [MainThread]: Running with dbt=1.11.7
+[0m11:37:51.703348 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\andra\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m11:37:51.703706 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\andra\Documents\GitHub\bts-bdp-exercises\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:37:51.705109 [debug] [MainThread]: Command `dbt run` failed at 11:37:51.704852 after 0.11 seconds
+[0m11:37:51.705538 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023CB2B55350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023CB2B61FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023CB19ABAC0>]}
+[0m11:37:51.705866 [debug] [MainThread]: Flushing usage events
+[0m11:37:52.574507 [debug] [MainThread]: An error was encountered while trying to flush usage events

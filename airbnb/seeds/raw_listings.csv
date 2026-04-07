@@ -1,0 +1,11 @@
+id,name,host_id,neighbourhood,room_type,minimum_nights,price,created_at,updated_at
+1001,Cozy Studio in Gracia,101,Gracia,Entire home/apt,2,85,2024-01-01,2025-01-15
+1002,Sunny Room near Park,102,Gracia,Private room,1,45,2024-01-02,2025-02-20
+1003,Modern Flat in Eixample,101,Eixample,Entire home/apt,3,120,2024-01-03,2025-01-10
+1004,Charming Apartment Gothic,103,Barri Gotic,Entire home/apt,2,95,2024-01-04,2025
+03-01
+1005,Beachfront Studio Barceloneta,102,Barceloneta,Entire home/apt,1,110,2024-01
+05,2025-02-01
+1006,Loft in Poblenou,104,Poblenou,Entire home/apt,3,75,2024-01-06,2025-01-20
+1007,Budget Room Sagrada Familia,103,Eixample,Private room,1,35,2024-01-07,2025-03-15
+1008,Penthouse with Terrace,104,Eixample,Entire home/apt,2,200,2024-01-08,2025-01-05
